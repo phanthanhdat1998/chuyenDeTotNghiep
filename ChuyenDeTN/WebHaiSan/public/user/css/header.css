@@ -1,0 +1,147 @@
+    #mb_mainnav {
+        background: #0f9ed8;
+    }
+    
+    #mb_verticle_menu {
+        position: relative;
+    }
+    
+    .title_block {
+        font-size: 15px;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin: 0px;
+        color: #ffffff;
+        display: block;
+        background: #00709d;
+        -webkit-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
+        box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
+        cursor: pointer;
+    }
+    
+    .title_block span {
+        padding: 10px 20px;
+        display: inline-block;
+        font-size: 15px;
+    }
+    
+    .navbar_menuvertical {
+        position: absolute;
+        background: #ffffff;
+        min-height: 50px;
+        z-index: 90;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    .navbar_menuvertical>.nav_verticalmenu {
+        margin: 0px;
+        padding: 0;
+        border: 1px solid #dadada;
+        border-top-color: transparent;
+        -webkit-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1);
+        box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1);
+        float: left;
+    }
+    
+    .navbar_menuvertical .nav_verticalmenu li {
+        position: relative;
+        background: #ffffff;
+        width: 100%;
+        border-bottom: 1px solid #dddddc;
+        display: block;
+        float: left;
+        padding: 0px 20px;
+    }
+    
+    .navbar_menuvertical .nav_verticalmenu li a {
+        color: #333333;
+        padding: 7px 0px;
+        display: block;
+        position: relative;
+    }
+    
+    .navbar_menuvertical .nav_verticalmenu li a img.icon-menu {
+        width: 40px;
+        height: 25px;
+    }
+    
+    .navbar_menuvertical .nav_verticalmenu li a img.icon-menu {
+        vertical-align: middle;
+        padding-right: 15px;
+    }
+    
+    .navbar_menuvertical .nav_verticalmenu>li.has-child>ul {
+        position: absolute;
+        top: 0;
+        left: 100%;
+        transition: all 0.45s ease-out 0s;
+        transform: translate(100px, 0);
+        opacity: 0;
+        visibility: hidden;
+        border: 1px solid #eaeaea;
+        background: #fff;
+    }
+    
+    .navbar_menuvertical .nav_verticalmenu li.has-child ul li {
+        border: none;
+        background: #ffffff;
+        text-align: center;
+        margin: auto;
+    }
+    
+    .menu-header-10 ul {
+        display: flex;
+        list-style-type: none;
+        font-family: sans-serif;
+    }
+    
+    .menu-header-10 ul li a {
+        padding: 10px 20px;
+        color: #fff;
+        font-weight: 600;
+        font-family: sans-serif;
+    }
+    /* ///////////// */
+    /*Service*/
+    
+    #service_home .service_item {
+        -moz-box-shadow: 0px 1px 5px 2px #f1f1f1;
+        -webkit-box-shadow: 0px 1px 5px 2px #f1f1f1;
+        box-shadow: 0px 1px 5px 2px #f1f1f1;
+        text-align: center;
+        padding: 40px 0;
+        text-align: center;
+    }
+    
+    #service_home .icon {
+        margin-right: 20px;
+        display: inline-block;
+        text-align: center;
+    }
+    
+    #service_home .icon img {
+        width: 50px;
+        height: 50px;
+        margin: 0 auto;
+    }
+    
+    #service_home .description_icon {
+        text-align: left;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    
+    span.large-text {
+        font-size: 16px;
+        color: #000;
+        text-transform: uppercase;
+        font-weight: 700;
+        display: block;
+        margin: 10px 0 0px;
+    }
+    
+    span.small-text {
+        font-size: 14px;
+        color: #888;
+    }

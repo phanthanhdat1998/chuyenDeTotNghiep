@@ -1,0 +1,222 @@
+/*03.Breadcrumb================================== */
+
+.breadcrumb {
+    background: transparent;
+    padding: 0;
+    margin: 5px 0 10px;
+}
+
+.breadcrumb ul li {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    float: left;
+    list-style-type: none;
+}
+
+.breadcrumb ul li a {
+    color: #aaaaaa;
+}
+
+.breadcrumb ul li a:hover {
+    color: #ff0000;
+}
+
+.breadcrumb ul li:last-child {
+    color: #0f9ed8;
+}
+
+.breadcrumb ul li .link-site-more {
+    display: inline;
+}
+
+.breadcrumb ul li .link-site-more img {
+    margin-left: 5px;
+}
+
+.breadcrumb ul li ul {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #ffffff;
+    box-shadow: 0 1px 2px #ccc;
+    display: none;
+    right: 0;
+    position: absolute;
+    top: 15px;
+    width: 160px;
+    z-index: 10;
+}
+
+.breadcrumb ul li ul li {
+    float: none;
+}
+
+.breadcrumb ul li ul li a {
+    padding: 5px 10px;
+    background-image: none;
+    display: block;
+}
+
+.breadcrumb ul li ul li a:hover {
+    background-color: #ff0000;
+    color: #ffffff;
+}
+
+.breadcrumb ul li:hover ul {
+    display: block;
+}
+
+
+/* end .breadcrumb */
+
+
+/*START-CSS: ACCOUNT-CONTENT
+==================================================================================================================*/
+
+.change-password-content h1,
+.comunication-content h1,
+.foget-password-content h1,
+.login-content h1,
+.register-content h1 {
+    border-bottom: 1px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.change-password-content h2,
+.comunication-content h2,
+.foget-password-content h2,
+.login-content h2,
+.register-content h2 {
+    color: #0f9ed8;
+    border-bottom: 1px dotted #333;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.change-password-content select,
+.comunication-content select,
+.foget-password-content select,
+.login-content select,
+.register-content select {
+    margin-bottom: 15px;
+}
+
+.change-password-content .checkbox input[type='checkbox'],
+.comunication-content .checkbox input[type='checkbox'],
+.foget-password-content .checkbox input[type='checkbox'],
+.login-content .checkbox input[type='checkbox'],
+.register-content .checkbox input[type='checkbox'] {
+    height: auto;
+}
+
+.change-password-content .help-block,
+.comunication-content .help-block,
+.foget-password-content .help-block,
+.login-content .help-block,
+.register-content .help-block,
+.change-password-content .warning,
+.comunication-content .warning,
+.foget-password-content .warning,
+.login-content .warning,
+.register-content .warning {
+    color: #ff0000;
+}
+
+.change-password-content .warning,
+.comunication-content .warning,
+.foget-password-content .warning,
+.login-content .warning,
+.register-content .warning {
+    padding-left: 5px;
+}
+
+.change-password-content a,
+.comunication-content a,
+.foget-password-content a,
+.login-content a,
+.register-content a {
+    color: #0f9ed8;
+}
+
+.change-password-content a:hover,
+.comunication-content a:hover,
+.foget-password-content a:hover,
+.login-content a:hover,
+.register-content a:hover {
+    color: #373737;
+}
+
+.login-content .btn {
+    margin-bottom: 0;
+}
+
+.img-captcha {
+    width: 140px;
+}
+
+
+/*register*/
+
+.comunication-content h1 {
+    border-bottom: 1px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.comunication-content h2 {
+    color: #0f9ed8;
+    border-bottom: 1px dotted #333;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.comunication-content a {
+    color: #0f9ed8;
+}
+
+.menu-about,
+.menu-logined,
+.menu-account {
+    margin-bottom: 15px;
+}
+
+.menu-about h3,
+.menu-logined h3,
+.menu-account h3 {
+    background-color: #00709d;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 15px 10px;
+    text-transform: uppercase;
+    margin: 0;
+    border-left: 5px solid #0f9ed8;
+}
+
+.menu-about ul,
+.menu-logined ul,
+.menu-account ul {
+    border: 1px solid #dddddd;
+    padding: 10px;
+    list-style-type: none;
+}
+
+.menu-about ul li.active a,
+.menu-logined ul li.active a,
+.menu-account ul li.active a {
+    color: #0f9ed8;
+}
+
+.menu-about ul li a,
+.menu-logined ul li a,
+.menu-account ul li a,
+.menu-about ul li a:visited,
+.menu-logined ul li a:visited,
+.menu-account ul li a:visited {
+    color: #6a6a6a;
+    font-weight: normal;
+    border-bottom: 1px dotted #c3c3c3;
+    display: block;
+    position: relative;
+    padding: 10px 15px;
+}
